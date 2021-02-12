@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+.header{    
+    height: 650px;
+    background-image:  url("../img/head.jpg") ;
+}
+.logo{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: center;
+    align-self: center;
+    font-size: 32px;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu{   
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px  20px;
+    
+}
+.accueil {
+    align-self: center;
+    grid-column: 2fr;
+    text-align:end;
+    padding-right: 33px;
+}
+.accueil li{
+    display: inline;   
+    padding-left: 22px;     
+}
+.accueil a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.accueil a:hover{
+font-size: 18px;
+text-decoration: underline;
+}
+.all{
+    list-style: none;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 11% 31% 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1%;
+}
+.a{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+}
+.b{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+}
+.c{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-self: center;
+}
+.d{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    justify-self: center;
+}
+.presentation{
+    grid-column: 2/3;
+    grid-row: 2/6;
+    justify-self: center;
+    font-size: 24px;
+}
+.presentation img{
+    width: 50%;
+    border-radius: 50%;
+    align-content: center;
+}
