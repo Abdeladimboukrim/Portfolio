@@ -1,0 +1,33 @@
+# Front-end Style Guide
+
+## Layout
+
+Créez les désigne en respectant les largeurs suivantes:
+
+- Mobile: 375px
+- Tablette: 768px
+- Desktop: 1440px
+
+## Colors
+
+- Définir tes couleurs ici en hsl ou bien en hexa avec le nom de chaque couleur
+
+## Typography
+liste menu ===>> font-family: Calibri
+logo =======>> font-family: Ink Free
+
+### Headings
+
+- Family: 
+- Weights: 
+
+### Body
+
+- Family: 
+- Weights: 
+
+## Icons
+
+Pour les icônes du réseaux sociaux, vous pouvez utiliser une bibliothèque d'icônes de polices.
+
+- [Font Awesome](desktop/fontawesome/...)
