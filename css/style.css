@@ -16,7 +16,7 @@
 }
 .menu{   
     display: grid;
-    grid-template-columns: 12% 1fr;
+    grid-template-columns: 15% 1fr;
     grid-template-rows: 60px  20px;
     
 }
@@ -79,7 +79,9 @@ text-decoration: underline;
     border-radius: 50%;
     align-content: center;
 }
-
+.button{
+    text-align: center;
+}
 
 
 /* animation with swiper*/
@@ -102,14 +104,18 @@ text-decoration: underline;
   }
   .swiper-slide-active{
       filter: blur(0px);
-  }
-  
+  }  
   .testimonialbox{
       position: relative;
       width: 100%;
       padding: 40px;
-      padding-top: 90px;
+
       color: #999;
+  }
+  .testimonialbox img{
+      width: 80%;
+      height: 600px;
+      justify-self: center;
   }
   .testimonialbox .quote{
         position: absolute;
@@ -124,14 +130,16 @@ text-decoration: underline;
        display: flex;
        align-items: center;
        margin-top: 20px;
+       text-align: center;
   }
-  .testimonialbox .details .imgbox {
+  .testimonialbox .details .imgbox button{
       position: relative;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
+      width: 120px;
+      height: 40px;
+      border-radius: 10%;
       overflow: hidden;
       margin-right: 10px;
+      justify-self: center;
   }
   .testimonialbox .details .imgbox img{
       position: absolute;
