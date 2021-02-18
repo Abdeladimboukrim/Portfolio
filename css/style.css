@@ -103,7 +103,7 @@ text-decoration: underline;
     width:400px;      
     background: #d1ebff ;
     box-shadow: 0 15px 50px rgba(0,0,0,0.2);
-    filter: blur(2px);
+    filter: blur(1px);
     border-radius: 10px;
   }
   .swiper-slide-active{
@@ -203,8 +203,8 @@ align-self: center ;
        word-spacing: 3px;
 }
 
-
 /*  section competance*/
+
 .all-logo{  
     display: grid;
     grid-template-columns: repeat(6,1fr);
@@ -250,3 +250,52 @@ align-self: center ;
     grid-column: 5/6;
     grid-row: 3/4;
 }
+    /* section contact moi */
+    
+    label{
+        display: flex; 
+        float: 30%;
+        padding: 10px;    
+        border-radius: 15px;
+        
+    }
+    .colory{ 
+        background-color: rgb(155, 152, 152);
+    }
+    .contact{    
+        background-color: #3675e980;
+        margin: auto;
+        width: 30%;
+        margin-top: 111px;
+        padding: 10px;
+        border: none;
+        border-radius: 15px;
+    }
+    .rectangle{
+        
+        border:none;
+        width: 60%;
+        height: 35px;
+        border-radius: 6px;
+    }
+    .last-rect{
+        padding: 12px;   
+        width: 60%;
+        height: 200px;
+        color: #020202;
+        border:none;
+        border-radius: 5px;  
+    }
+    .cmt{
+        color:#fff;
+        width: 60%;
+        padding: 5px;
+        background-color: rgb(6, 94, 64);
+        border-radius: 10px;
+        justify-content: center;
+        text-align: center;
+    } 
+
+
+
+
