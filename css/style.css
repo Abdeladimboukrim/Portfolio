@@ -2,8 +2,9 @@
     margin: 0px;
 }
 .header{    
-    height: 650px;
-    background-image:  url("../img/head.jpg") ;
+    height: 550px;
+    background-image:  url("../img/head.png") ;
+    background-size: cover;
 }
 .logo{
     grid-column: 1/2;
@@ -35,7 +36,6 @@
     font-family: Calibri;
     text-decoration: none;
 }
-
 .accueil a:hover{
 font-size: 18px;
 text-decoration: underline;
@@ -81,6 +81,10 @@ text-decoration: underline;
 }
 .button{
     text-align: center;
+    justify-self: center;
+}
+.button button{
+    background-color: tomato;
 }
 
 
@@ -171,3 +175,78 @@ text-decoration: underline;
   {
     background-image: none;
   }
+
+  /* section a propos de moi*/
+  .origin{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5%;
+    background-color: rgb(107, 146, 161);
+}
+.one{
+grid-column: 1/2;
+align-self: center ;
+}
+.one img{
+    width: 50%;
+    border-radius: 50%;
+    align-self: center;
+    float: right;
+}
+.two{
+    grid-column: 2/4;
+    align-self: center; 
+    color: white;
+}
+.two p{     
+       word-spacing: 3px;
+}
+
+
+/*  section competance*/
+.all-logo{  
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    background-color: bisque;    
+    padding: 11%;
+}
+   
+.ab{
+    grid-column: 2/3;
+    grid-row:1/2 ;
+    justify-self: right;
+}
+.bc{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: right;
+}
+.cd{
+    grid-column: 2/3;
+    grid-row:3/4 ;
+    justify-self: right;
+}
+.de{
+    grid-column: 3/5;
+    grid-row: 1/4;
+    justify-self: center;
+    align-self: center;
+}
+.de img{
+    border-radius: 50%;
+}
+.ef{
+    grid-column:5/6;
+    grid-row: 1/2;
+}
+.fg{
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+.gh{
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
