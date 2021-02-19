@@ -82,22 +82,32 @@ text-decoration: underline;
 .button{
     text-align: center;
     justify-self: center;
+    background-color: #69D9B6;
+    padding-top: 14px;
 }
 .button button{
-    background-color: tomato;
+    background-color:#77B2E6 ;    
+    color: #fff;
+    width: 10%;
+    border:none;
+    border-radius: 10px;
+    padding: 8PX;
+
 }
 
 
 /* animation with swiper*/
 
-
+.swiper-container-3d {
+    perspective: 300px;
+}
 .swiper-container {
     width: 70%;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
-  .swiper-slide {
+  .swiper-slide {background-image: linear-gradient(#133155, #E6E6E6);
     background-position: center;
     background-size: cover;
     width:400px;      
@@ -111,22 +121,16 @@ text-decoration: underline;
   }  
   .testimonialbox{
       position: relative;
-      width: 100%;
       padding: 40px;
 
       color: #999;
   }
   .testimonialbox img{
       width: 80%;
-      height: 600px;
+      height: 400px;
       justify-self: center;
   }
-  .testimonialbox .quote{
-        position: absolute;
-        top: 20px;
-        right: 0px;
-        opacity: 0.2;
-  }
+  
   .testimonialbox .quote img{
     width: 50%;      
   }
@@ -144,6 +148,7 @@ text-decoration: underline;
       overflow: hidden;
       margin-right: 10px;
       justify-self: center;
+      text-align: center;
   }
   .testimonialbox .details .imgbox img{
       position: absolute;
@@ -160,13 +165,13 @@ text-decoration: underline;
       color: #2196f3;
       line-height: 1.1em;
   }
-  .testimonialbox .details  h3 span{
+  .testimonialbox .details h3 span{
       font-size: 12px;
       color: #666;
   }
 
   .testimonialbox .content p{
-    width: 100%;      
+    width: 100%;
   }  
     /* Center slide text vertically */
    
@@ -182,7 +187,7 @@ text-decoration: underline;
     display: grid;
     grid-template-columns: repeat(3, 30%);
     gap: 5%;
-    background-color: rgb(107, 146, 161);
+    background-color:  #69D9B6;
 }
 .one{
 grid-column: 1/2;
@@ -198,6 +203,7 @@ align-self: center ;
     grid-column: 2/4;
     align-self: center; 
     color: white;
+    font-size: 18px;
 }
 .two p{     
        word-spacing: 3px;
@@ -210,8 +216,8 @@ align-self: center ;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 10px;
-    background-color: bisque;    
-    padding: 11%;
+    background-color: #69D9B6;    
+    padding: 5%;
 }
    
 .ab{
@@ -260,7 +266,9 @@ align-self: center ;
         
     }
     .colory{ 
-        background-color: rgb(155, 152, 152);
+        background-color:  #69D9B6;
+        justify-content: center;  
+        padding: 22px;;
     }
     .contact{    
         background-color: #3675e980;
@@ -298,4 +306,41 @@ align-self: center ;
 
 
 
-
+        /* section FOOTER */
+        .foter{
+            background-color: black;
+            height: 180px;
+        }
+        .tree-part{
+            display: flex;    
+            color:#fff;
+            padding: auto;
+            justify-content: space-between;
+            padding: 1%;
+        }
+        .right {
+            
+        }
+        .right li{
+            display: inline;
+            padding: 11px;
+            
+               
+        }
+        .right  a{
+           color: #fff; 
+           text-decoration: none;
+        }
+        
+        .copy-right ,.midele{
+            color: #fff;
+            text-align: center;    
+            
+        }
+        .left i{
+            padding: 8px;
+        }
+        .midele i{
+            padding: 8px;
+            
+        }
