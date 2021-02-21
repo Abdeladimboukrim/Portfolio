@@ -12,16 +12,35 @@
 <body>
   <main>
   <div class="header">
-
+    <nav>
+        <div class="logo"><h1>B.Abdeladim</h1></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#competance">Compétance</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">                
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-twitter"></i>
+            </span>
+        </ul>
+    </nav>
+    
+    
+    <script src="./app.js"></script>
     <div class="menu">
         <div class="logo">B.Abdeladim</div>
-        <div class="accueil">
+        <div class="accueil" id="accueil">
             <ul>
-            <li> <a href="#">Accueil</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">A propos</a></li>
-            <li><a href="#">Compétance</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#accueil" target="_self">Accueil</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#propos" target="_self" >A propos</a></li>
+            <li><a href="#competance">Compétence</a></li>
+            <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -29,7 +48,7 @@
 <Div class="all">
         
     <div class="a"><i class="fab fa-linkedin-in fa-3x"></i></div>
-    <div class="b"><i class="fab fa-instagram fa-3x"></i></div>
+    <div class="b"><i class="fab fa-github fa-3x"></i></div>
     <div class="c"><i class="fab fa-facebook-f fa-3x"></i></div>
     <div class="d"><i class="fab fa-twitter fa-3x"></i></div>                                      
 
@@ -39,11 +58,15 @@
     </div>
 </Div>    
 </div>
+
+
+<!--  section portfolio -->
   <div class="button">
     <button> Portfolio</button>
  
    
 
+    <Div class="portfolio" id="portfolio">
     <div class="swiper-container">
         <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -116,16 +139,17 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
     </div>
+    </Div>
      </div>
 
 
 
         <!-- section a propos-->
-        <div class="button">
+        <div class="button" id="propos">
             <button> A propos de moi</button>
         </div>
 
-        <div class="origin">
+        <div class="propos" >
             <div class="one">
             <a><img src="img/ABB.png" alt=""></a>
             </div>
@@ -161,10 +185,10 @@
         <!-- section competance I -->
 
         <div class="button">
-           <button> Compétance</button>
+           <button>Compétance</button>
         </div>
             <!--  section competance II -->
-        <div class="all-logo">
+        <div class="competance" id="competance">
             <div class="ab"><img src="img/ps-icon.ico" alt=""> </div>        
             <div class="bc"> <img src="img/html-icon.ico" alt=""></div>
             <div class="cd"> <img src="img/css-icon.ico" alt=""></div>
@@ -177,11 +201,11 @@
     
         <!--  section contact moi  -->        
 
-        <div class=" colory">
+        <div class="contactme">
             <div class="button">
                 <button> Contact moi</button>
              </div>
-            <div class="contact"> 
+            <div class="contact" id="contact"> 
                 <form>
                     <div class="QQ">
                         <label for="client" class="Name">Name:</label> 
@@ -193,13 +217,13 @@
                     </div>
     
                     <div class="QQ">
-                        <label for="client" class="City">Commentaire:</label><br>
+                        <label for="client" class="City">Commentaire:</label>
                         <textarea class="last-rect" type="text-" name="coment" > </textarea>
                     </div> 
                 </form>
     
                         
-                    <div class="QQ"><br>
+                    <div class="QQ">
                     <button  type="submit"  class="cmt" >LAISSER UN COMMENTAIRE</button>
                     </div>
                         
@@ -223,7 +247,7 @@
                 <div class="midele">
         
                     <i class="fab fa-linkedin-in fa-3x"></i>
-                    <i class="fab fa-instagram fa-3x"></i>
+                    <i class="fab fa-github fa-3x"></i>
                     <i class="fab fa-facebook-f fa-3x"></i>
                     <i class="fab fa-twitter fa-3x"></i>
         
@@ -233,11 +257,11 @@
                 <div class="right">
                     
                         <ul>
-                        <li> <a href="#">Accueil</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">A propos</a></li>
-                        <li><a href="#">Compétance</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li> <a href="#accueil">Accueil</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#propos">A propos</a></li>
+                        <li><a href="#competance">Compétance</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         </ul>
                     
                 </div>
