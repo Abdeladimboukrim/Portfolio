@@ -548,10 +548,7 @@ align-self: center ;
                 grid-row: 2/3;
                 font-size: 14px;  
                 padding: 22px;  
-            }
-
-
-            
+            }           
 
             /* CONTACT MOI */ 
 
@@ -563,6 +560,12 @@ align-self: center ;
                 width: 90%;
                 height: 440px;
             }
+            .rectangle{
+                width: 70%;
+            }
+            .last-rect{
+                width: 80%;
+            }
             .cmt{
                 width: 65%;
             }
@@ -572,7 +575,7 @@ align-self: center ;
             .QQ{
                 padding-bottom: 0px;
             }         
-            .all-logo img{
+            .competance img{
                 width: 100%;
             }
 
