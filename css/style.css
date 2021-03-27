@@ -513,8 +513,7 @@ align-self: center ;
                 justify-self: center;
                 font-size: 20px;
             }
-            .presentation img{
-               
+            .presentation img{               
                 border-radius: 50%;
                 align-content: center;
             }
